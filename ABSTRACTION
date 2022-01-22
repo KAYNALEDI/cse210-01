@@ -1,6 +1,5 @@
-from abc import abstractmethod, ABC
 
-class Vehicle(ABC):
+Electric Vehicle Model:
     def __init__(self, speed, year):
         self.speed = speed
         self.year = year
